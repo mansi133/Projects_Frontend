@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  font-family: inter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  min-width: 20%;
+  min-height: 90vh;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#container img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  padding:5px;
+  
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px; 
+  gap: 2px; 
+
+}
+
+#textContainer h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+ 
+}
+
+#textContainer h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#textContainer p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 100;
+ padding: 10px;
+}
+
+.socialBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  row-gap: 10px;
+ padding: 10px;
+
+}
+
+.socialBtn .socialLink {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #ffff;
+  display: block;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-weight: 600;
+  transition: color 0.5s, background-color 0.5s;
+
+}
+
+.socialBtn :hover {
+  cursor: pointer;
+  color: black;
+}
